@@ -50,3 +50,135 @@ header{
   border: none;
   cursor: pointer;
 }
+.header-two{
+  position: relative;
+  width: 100%;
+  top: 100px;
+  text-align: center;
+  font-family: "Azeret Mono", monospace;
+  font-size: larger;
+}
+.para-two{
+  position: relative;
+  width: 60%;
+  top: 120px;
+  left: 293px;
+  right: 297px;
+  text-align: center;
+  text-align: justify;
+  font-family: "Azeret Mono", monospace;
+}
+.content-heading{
+  position: relative;
+  width: 35%;
+  top: 190px;
+  left: 293px;
+  right: 297px;
+  text-align: left;
+  font-family: "Azeret Mono", monospace;
+  opacity: 0.7;
+}
+.content-para{
+  position: relative;
+  width: 35%;
+  top: 200px;
+  left: 293px;
+  right: 297px;
+  text-align: left;
+  font-size: small;
+  font-family: "Azeret Mono", monospace;
+}
+.learn-more{
+  position: relative;
+  top: 220px;
+  left: 293px;
+  right: 297px;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+}
+.image{
+  display: flex;
+  position: relative;
+  top: 35px;
+  left: 910px;
+  right: 297px;
+  width: 200px;
+  height: auto;
+}
+.image2{
+  display: flex;
+  position: relative;
+  top: -60px;
+  left: 283px;
+  right: 297px;
+  width: 200px;
+  height: auto;
+}
+.content-heading2{
+  position: relative;
+  width: 35%;
+  top: 120px;
+  left: 515px;
+  right: 297px;
+  text-align: left;
+  font-family: "Azeret Mono", monospace;
+  opacity: 0.7;
+}
+.content-para2{
+  position: relative;
+  width: 35%;
+  top: 130px;
+  left: 515px;
+  right: 297px;
+  text-align: left;
+  font-size: small;
+  font-family: "Azeret Mono", monospace;
+}
+.learn-more2{
+  position: relative;
+  top: 150px;
+  left: 515px;
+  right: 297px;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+}
+.content-heading3{
+  position: relative;
+  width: 35%;
+  top: 75px;
+  left: 305px;
+  right: 297px;
+  text-align: left;
+  font-family: "Azeret Mono", monospace;
+  opacity: 0.7;
+}
+.content-para3{
+  position: relative;
+  width: 35%;
+  top: 85px;
+  left: 305px;
+  right: 297px;
+  text-align: left;
+  font-size: small;
+  font-family: "Azeret Mono", monospace;
+}
+.learn-more3{
+  position: relative;
+  top: 105px;
+  left: 305px;
+  right: 297px;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+}
+.image3{
+  display: flex;
+  position: relative;
+  top: -105px;
+  left: 910px;
+  right: 297px;
+  width: 200px;
+  height: auto;
+}
