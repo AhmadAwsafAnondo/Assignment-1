@@ -53,7 +53,7 @@ header{
 .header-two{
   position: relative;
   width: 100%;
-  top: 100px;
+  top: 110px;
   text-align: center;
   font-family: "Azeret Mono", monospace;
   font-size: larger;
@@ -61,7 +61,25 @@ header{
 .para-two{
   position: relative;
   width: 60%;
-  top: 120px;
+  top: 130px;
+  left: 293px;
+  right: 297px;
+  text-align: center;
+  text-align: justify;
+  font-family: "Azeret Mono", monospace;
+}
+.header3{
+  position: relative;
+  width: 100%;
+  top: 110px;
+  text-align: center;
+  font-family: "Azeret Mono", monospace;
+  font-size: larger;
+}
+.para3{
+  position: relative;
+  width: 60%;
+  top: 130px;
   left: 293px;
   right: 297px;
   text-align: center;
@@ -96,6 +114,9 @@ header{
   width: 100px;
   height: 35px;
   cursor: pointer;
+  opacity: 0.7;
+  border-radius: 0px;
+  border: 0.1px solid rgb(39, 39, 39);
 }
 .image{
   display: flex;
@@ -143,6 +164,9 @@ header{
   width: 100px;
   height: 35px;
   cursor: pointer;
+  opacity: 0.7;
+  border-radius: 0px;
+  border: 0.1px solid rgb(39, 39, 39);
 }
 .content-heading3{
   position: relative;
@@ -172,6 +196,9 @@ header{
   width: 100px;
   height: 35px;
   cursor: pointer;
+  opacity: 0.7;
+  border-radius: 0px;
+  border: 0.1px solid rgb(39, 39, 39);
 }
 .image3{
   display: flex;
@@ -181,4 +208,9 @@ header{
   right: 297px;
   width: 200px;
   height: auto;
+}
+iframe{
+  position: absolute;
+  top: 2250px;
+  left: 10%;
 }
