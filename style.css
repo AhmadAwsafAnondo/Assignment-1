@@ -15,7 +15,7 @@ header {
 }
 .bg {
   position: absolute;
-  top: 0;
+  top: -100px;
   left: 0;
   width: 1440px;
   height: 652px;
@@ -71,7 +71,7 @@ header {
   position: relative;
   width: 35%;
   top: 190px;
-  left: 293px;
+  left: 305px;
   right: 297px;
   text-align: left;
   font-family: "Azeret Mono", monospace;
@@ -81,7 +81,7 @@ header {
   position: relative;
   width: 35%;
   top: 200px;
-  left: 293px;
+  left: 305px;
   right: 297px;
   text-align: left;
   font-size: small;
@@ -91,7 +91,7 @@ header {
 .learn-more {
   position: relative;
   top: 220px;
-  left: 293px;
+  left: 305px;
   right: 297px;
   width: 100px;
   height: 35px;
@@ -198,6 +198,8 @@ iframe {
   top: 2250px;
   left: 10%;
   border-radius: 20px;
+  width: 1076px;
+  height: 550px;
 }
 .header3 {
   position: relative;
@@ -290,7 +292,7 @@ iframe {
 }
 #feedback-textarea{
   position: relative;
-  top: 920px;
+  top: 930px;
   left: 305px;
   width: 650px;
   height: 50px;
@@ -304,13 +306,28 @@ iframe {
 }
 #submit{
   position: relative;
-  top: 898px;
+  top: 909px;
   left: 320px;
   width: 100px;
-  height: 55px;
+  height: 54px;
   border: none;
   border-radius: 8px;
   font-size: medium;
   font-family: "Azeret Mono", monospace;
   font-weight: bold;
+  cursor: pointer;
+}
+.footer-heading{
+  position: relative;
+  top: 1040px;
+  padding: 10px;
+  margin-left: 215px;
+  font-family: "Azeret Mono", monospace;
+}
+.icons > a > img{
+  position: relative;
+  top: 980px;
+  left: 990px;
+  margin-right: 30px;
+  justify-content: space-between;
 }
